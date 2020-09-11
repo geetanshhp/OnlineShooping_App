@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/userprofileImage"
+        android:layout_marginTop="14dp"
+        android:layout_width="100dp"
+        android:src="@drawable/circle"
+        android:layout_height="140dp" />
+    <TextView
+
+        android:layout_gravity="center"
+        android:id="@+id/userprofilename"
+        android:textSize="15dp"
+        android:typeface="serif"
+      android:layout_marginTop="06dp"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="User Name Will here"
+        android:padding="04dp"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
